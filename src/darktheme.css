@@ -1,0 +1,52 @@
+/* En lugar de repetir ".dark" en cada selector, puedes agruparlos para simplificar el código */
+
+/* Estilos globales para elementos dentro de .dark */
+.dark a {
+    color: white;
+}
+
+/* Cambio de color al hacer hover en todos los enlaces */
+.dark a:hover {
+    color: rgb(136, 136, 136);
+}
+
+/* Estilos para el encabezado */
+.dark nav {
+    background-color: #525252;
+}
+
+/* Estilos para los botones de tema */
+.dark .btn-theme,
+.dark .back-btn > button,
+.dark form > button,
+.dark .removeAll-btn {
+    background-color: #525252;
+    color: white;
+}
+
+/* Estilos para los inputs y placeholders */
+.dark form > input {
+    background-color: #0d0912;
+    color: white;
+    border: 1px solid #525252;
+}
+
+.dark form > input::placeholder {
+    color: rgb(194, 194, 194);
+}
+
+/* Estilos para las tarjetas */
+.dark .card {
+    background-color: #525252;
+    border: none;
+}
+
+.dark .card:hover {
+    border: 0.5px solid #525252;
+    transition: 0.3s;
+}
+
+/* Estilos para el pie de página */
+.dark footer {
+    background-color: #525252;
+}
